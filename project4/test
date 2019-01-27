@@ -1,0 +1,110 @@
+#pragma source off
+#pragma token off
+#pragma statistic off
+#pragma symbol on
+
+int a, b;
+int arr[1][2][3] = { 0, 0, 0, 0, 0 };
+float brr[1][2] = { 3, 3, 3, 3 };
+int crr[3] = { 3.4, (4>5)==0, -2.3};
+bool drr[10] = { 0, 1, "s">5, !true, false };
+double d, e;
+float f;
+bool x, y;
+string str;
+
+const int c = 0;
+
+void undef_f();
+int funct(int a, int b[3], float c[2][3]);
+bool isfunct();
+
+int main() {
+	c = 1;
+	c = ar[1][2][3][4];
+	a = b;
+	b = arr[0][2];
+	b = arr[3][5][5][5][5];
+	b = arr[3][3][3];
+
+	a = a+f*a-d;
+	f = ((a+b)*arr[3][3][3]);
+	a = 1+1;
+	a = a+a;
+	a = a-3*4;
+	b = a*11;
+	b = d/b;
+	a = b/3;
+	b = 12345 % a;
+	a = a/str+str;
+	a = a>b;
+	f = a>d;
+	x = a!=b;
+	x = arr[3][3][3]==y;
+	x = x>y;
+
+	y = !a;
+	x = !(!(!z));
+	a = -f;
+	b = -arr[3][3][3]+-c;
+	b = -1+-a;
+	f = ------a;
+
+	arr = arr[1] + arr[2];
+
+	str = "this is a string";
+
+	arr[1][2][3] = brr[2][2];
+	brr[2][3] = arr[3][4][2];
+
+	a = funct(arr[0][0][0], arr[0][0], brr);
+	funct(arr[0][0][0], arr[0][0], arr[0]);
+	a = funct(arr[0][0][0], arr[0][0], arr[0], 1);
+	funct(1);
+	a = funct()+2;
+	funct();
+	funct();
+
+	read a;
+	print arr;
+	print funct()+2;
+
+	int i;
+	for(i=0; i<1; i=i+1) {
+		int loop;
+		a=a-1;
+		i = 9;
+		for(;;){
+			while(true) {
+				continue;
+			}
+		}
+	}
+	if(0){
+		int is;
+		if(isfunct()) {
+			print is;
+		}
+	}
+	else {
+		int var;
+		funct();
+	}
+	break;
+	continue;
+
+	return 0;
+}
+
+int funct(int a, int b[3], int c[2][3]) {
+	// return 0; 
+	int a;
+	int d;
+	a=true;
+	return a;
+}
+
+bool isfunct() {
+	return 1+1%5;
+	a = 0;
+}

@@ -1,0 +1,39 @@
+void function(string s[2][3][4][5], int var);
+
+int main() {
+	print power(a,b) + 2;
+	read a;
+	print 2+a;
+	print "print a string\n";
+	while(true) {
+		if(a == b) { }
+		if(a + b) {
+			if(a) {
+				continue;
+			}
+			else {
+				do {
+					const int a = "power(a, b)+5";
+					int A = power(a,b) + 5;
+					string s;
+					for(;;){
+						s = "do nothing";
+					}
+				} while(1+1==0);
+			}
+		}
+		else {
+			break;
+		}
+	}
+	
+	
+	return 0;
+}
+
+void function(string s[2][3][4][5], int var) {
+	fucntion( s[2][3][4][5], var );
+	for(i=0; i<n; i=i+1){
+		break;
+	}
+}

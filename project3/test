@@ -1,0 +1,63 @@
+#pragma source on
+#pragma token off
+#pragma statistic off
+#pragma symbol on
+
+int a, b;
+int a, b[6] = { 123, 456, 789, 123, 456, 789 };
+const int c = true, d = false;
+float e = 3.5, f = 8*5;
+const double h = 6.62607004e-34;
+const float pi = 3.1415926;
+string s = "this is a string";
+const string t = "this is a const string";
+bool flag[1][2][3];
+
+//void funct(int a[2][2], int b[3]);
+//void nothing();
+int test(int a[2][2], int b);
+
+int main() {
+	float var;
+	int test;
+	for(test = 0; test < 5; test = test + 1) {
+		int testa;
+		string tests = "this is a for loop\n";
+		while(true) {
+			int l[2][2];
+			int m[3];
+			funct(l, m);
+			nothing();
+			if(true) {
+				int a, b;
+				if(false) {
+					int a, b, c;
+				}
+				else {
+					int d, e;
+				}
+			}
+			else {
+				int a, b, c, d;
+				if(a == b) {
+					int a;
+				}
+			}
+		}
+	}
+	
+	return 0;
+}
+
+void funct(int a[2][2], int b[3]) {
+	a[0] = b[2];
+	const int a = 123;
+	const float c = 456.7;
+	const string d = "how to deal with new line??\n\n";
+	bool e = true;
+}
+
+void nothing() {
+	string s = "nothing";
+}
+
